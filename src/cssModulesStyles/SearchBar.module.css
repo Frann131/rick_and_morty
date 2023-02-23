@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.search {
+    position: absolute;
+    right: 1em;
+}
+
+.addButton {
+    background-color: rgb(189, 80, 199);
+    width: 6em;
+    height: 2.5em;
+    border-radius: 0.7em;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.addInput {
+    height: 2.3em;
+    border-radius: 0.5em;
+    background-color: rgb(63, 63, 63);
+    border: none;
+    color: rgb(219, 219, 219);
+    padding: 1em;
+    margin-right: 0.2em;
+}

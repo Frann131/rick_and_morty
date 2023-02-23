@@ -1,0 +1,99 @@
+@media only screen and (max-width: 576px) {
+.logLabel{
+    display: flexbox;
+}
+.box {
+    padding: 0.5em;
+    background-color: rgb(189, 80, 199);
+    width: fit-content;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 2em;
+    border-radius: 1em;
+    box-shadow: 0.2em 0.2em 0.5em rgb(114, 114, 114)
+}}
+@media only screen and (min-width: 576px) {
+    .box {
+        padding: 2em;
+        background-color: rgb(189, 80, 199);
+        width: fit-content;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 2em;
+        border-radius: 1em;
+        box-shadow: 0.2em 0.2em 0.5em rgb(114, 114, 114)
+    }}
+
+.user {
+    text-align: end;
+    margin-left: auto;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em rgb(48, 48, 48);
+}
+
+.pass {
+    text-align: end;
+    margin-left: auto;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em rgb(48, 48, 48);
+}
+
+.logLabel {
+    padding-right: 0.3em;
+    text-align: end;
+}
+
+.logBtn {
+    font-family: poppins, sans-serif;
+    color:white;
+    background-color: rgb(48, 48, 48);
+    border: 2px solid rgb(48, 48, 48);
+    border-radius: 0.8em;
+    padding: 0.5em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    cursor: pointer;
+}
+.loggBtn {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+.logBtn:hover {
+    background-color: white;
+    color: rgb(48, 48, 48)
+}
+.inputLog {
+    background-color: rgb(247, 224, 250);
+    border: 0;
+    border-radius: 0.5em;
+    box-shadow: inset -0.2em -0.2em 0.5em rgb(184, 169, 183);
+    padding: 3px;
+    padding-left: 0.5em;
+    font-family: poppins, sans-serif;
+    margin: 0.5em;
+    width: 20em;
+}
+.inputLog:focus {
+    outline: none;
+    background-color: white;
+}
+.inputLog::after {
+    background-color: rgb(247, 224, 250);
+}
+@media only screen and (max-width: 375px) {
+.inputLog {
+    background-color: rgb(247, 224, 250);
+    border: 0;
+    border-radius: 0.5em;
+    box-shadow: inset -0.2em -0.2em 0.5em rgb(184, 169, 183);
+    padding: 3px;
+    padding-left: 0.5em;
+    font-family: poppins, sans-serif;
+    margin: 0.5em;
+    width: 10em;
+}}
+@media only screen and (max-width: 576px) {
+    .inputLog {
+            width: 15em;
+    }}
